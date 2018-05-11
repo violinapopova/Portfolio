@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png">
+    <title>Violina Popova | Web Developer</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
+        crossorigin="anonymous">
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="mainContainer">
+
+        <header class="headerContainer">
+
+            <!--Mobile side nav-->
+
+            <div id="mobileSideNav" class="sideNav">
+                <a href="#" class="closeButton" onclick="closeNav()">&#9776;</a>
+                <a href="#about">About</a>
+                <a href="#resume">Resume</a>
+                <a href="#featuredWork">Featured Work</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <span class="hamburgerMenu" onclick="openNav()">&#9776;</span>
+
+            <div class="headerLogo">
+                <a class="logoPicture" href="https://github.com/violinapopova">
+                    <img src="images/logo.png" alt="Violina Popova Logo">
+                </a>
+            </div>
+            <div class="innerHeader">
+                <h1>Violina Popova</h1>
+                <span class="jobTitle">Junior Front-End-Developer</span>
+            </div>
+        </header>
+
+        <div class="navContainer">
+            <nav class="nav">
+                <ul>
+                    <li class="navItem">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="navItem">
+                        <a href="#resume">Resume</a>
+                    </li>
+                    <li class="navItem">
+                        <a href="#featuredWork">Featured Work</a>
+                    </li>
+                    <li class="navItem">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <section class="mainPictureContainer">
+            <a class="binderFirst" id="about"></a>
+            <div class="pictureText">
+                <h2>Hey there, I`m Violina!</h2>
+                <span class="description">I am a Front-End-Developer passionate about
+                    <br/> technologies, photography and traveling.</span>
+            </div>
+        </section>
+
+        <section class="resumeContainer">
+            <a class="binderSecond" id="resume"></a>
+            <section class="personalImage">
+            </section>
+            <section class="resume">
+                <section class="personalInfo" id="educationPart">
+                    <div class="sideBar">
+
+                        <span class="tag allFrames">Education</span>
+                        <button class="tag mobileOnly" id="showFirst" data-href="education">Education</button>
+
+                    </div>
+                    <div class="main collapseFirst" id="education">
+                        <h4>Udacity | Google</h4>
+                        <p>
+                            <span class="educationDetails">Front-End-Web Developer Nanodegree Program</span>
+                            <span class="educationDetails">Feb.2018 - Aug.2018</span>
+                        </p>
+                        <h4>University of Agriculture and Regional Development</h4>
+                        <p>
+                            <span class="educationDetails">Matster's degree, Marketing and Advertising</span>
+                            <span class="educationDetails">2013 - 2014</span>
+                        </p>
+                        <h4>University of Agriculture and Regional Development</h4>
+                        <p>
+                            <span class="educationDetails">Bachelor`s degree, Business Administration</span>
+                            <span class="educationDetails">2009 - 2012</span>
+                        </p>
+                    </div>
+                </section>
+                <a class="binder"></a>
+                <section class="personalInfo" id="skillsPart">
+                    <div class="sideBar">
+
+                        <span class="tag allFrames">Skills</span>
+                        <button class="tag mobileOnly" id="showSecond" data-href="mySkills">Skills</button>
+
+                    </div>
+                    <div class="main collapseSecond" id="mySkills">
+                        <h4>Languages</h4>
+                        <p>
+                            <span class="languagesDetails">Bulgarian | Native</span>
+                            <span class="languagesDetails">English | Working proficiency</span>
+                            <span class="languagesDetails">Spanish | Working proficiency</span>
+                            <span class="languagesDetails">Russian | Working proficiency</span>
+                        </p>
+                        <h4>Technical Skills</h4>
+                        <p>
+                            <span class="languagesDetails">HTML5</span>
+                            <span class="languagesDetails">CSS3</span>
+                            <span class="languagesDetails">JavaScript (JQuery, React)</span>
+                            <span class="languagesDetails">Always eager to learn new languages!</span>
+                        </p>
+                    </div>
+                </section>
+            </section>
+        </section>
+
+        <section class="workContainer">
+            <a class="binderThird" id="featuredWork"></a>
+            <h2 class="workTitle">Featured Work</h2>
+            <article class="portfolio" id="firstProject">
+                <h3>Animal Trading Card</h3>
+                <a href="https://codepen.io/violipopova/full/VQVwqO/" target="_parent" class="link">Review</a>
+            </article>
+            <article class="portfolio" id="secondProject">
+                <h3>Pixel Art Maker</h3>
+                <a href="https://codepen.io/violipopova/full/qYRayP/" target="_parent" class="link">Review</a>
+            </article>
+            <article class="portfolio" id="thirdProject">
+                <h3>Memory Game</h3>
+                <a href="#" target="_parent" class="link">Coming Soon</a>
+            </article>
+        </section>
+
+        <div class="footerContainer">
+            <a class="binderFourth" id="contact"></a>
+            <footer>
+                <h2 class="contactTitle">Contact Me</h2>
+                <ul class="socialMediaIcons">
+                    <li>
+                        <a target="_parent" href="mailto:violipopova@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_parent" href="https://github.com/violinapopova">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_parent" href="https://www.linkedin.com/in/violipopova/">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright">© Copyright 2018 by Violina Popova. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+</body>
