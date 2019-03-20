@@ -268,7 +268,8 @@ button:focus {
   margin-right: 13px;
   width: 18rem;
   height: 300px;
-  color: #d9d9d9;
+  color: #666;
+  margin-bottom: 2vh;
 }
 
 .link {
@@ -285,39 +286,25 @@ button:focus {
 }
 
 .link:hover {
-  background-color: #666666;
-  color: #d9d9d9;
+  background-color: #d9d9d9;
+  color: #02b3e4;
   border-color: transparent;
 }
 
-#firstProject {
-  background: url('../images/Thunderbird_before_a_storm.jpg');
-  opacity: 0.8;
+#firstProject,
+#secondProject,
+#thirdProject,
+#fourthProject,
+#fifthProject,
+#sixthProject,
+#seventhProject {
+  background: #afd7ee;
+  border: 3px solid #02b3e4;
   background-size: cover;
   background-position-x: center;
   background-position-y: center;
   border-radius: 0.5rem;
-  box-shadow: 4px 4px 4px #666666;
-}
-
-#secondProject {
-  background: url('../images/dory.png');
-  opacity: 0.8;
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: center;
-  border-radius: 0.5rem;
-  box-shadow: 4px 4px 4px #666666;
-}
-
-#thirdProject {
-  background: url('../images/memory_game.PNG');
-  opacity: 0.8;
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: center;
-  border-radius: 0.5rem;
-  box-shadow: 4px 4px 4px #666666;
+  box-shadow: 4px 4px 2px #666666;
 }
 
 .footerContainer {
