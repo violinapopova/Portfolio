@@ -297,7 +297,9 @@ button:focus {
 #fourthProject,
 #fifthProject,
 #sixthProject,
-#seventhProject {
+#seventhProject,
+#eighthProject,
+#ninethProject {
   background: #afd7ee;
   border: 3px solid #02b3e4;
   background-size: cover;
